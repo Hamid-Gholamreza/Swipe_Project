@@ -522,3 +522,10 @@ main {
     position: absolute;
     top: 10%
 }
+
+/* VIRTUAL EVENSTS SECTION */
+
+.virtual-events-section {
+    display: flex;
+    justify-content: center;
+}
