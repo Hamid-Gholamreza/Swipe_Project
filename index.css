@@ -793,6 +793,14 @@ p {
         width: 100%;
         height: auto;
     }
+
+    .integration-section .column-left {
+        width: 60%;
+    }
+
+    .integration-section .column-right {
+        width: 40%;
+    }
 }
 
 /* TABLET SIZE */
@@ -805,6 +813,16 @@ p {
     }
 
     .unified-platform-section h2 {
+        width: 100%;
+    }
+
+    /* INTEGRATION SECTION */ 
+
+    .integration-section .card-container {
+        flex-direction: column;
+    }
+
+    .integration-section .card-container .card {
         width: 100%;
     }
 }
@@ -830,6 +848,14 @@ p {
     .partners-grid {
         grid-template-columns: 1fr 1fr;
     }
-    /* UNIFIED PLATFORM */
+    /* INTEGRATION SECTION */
+    .integration-section .column-right {
+        display: none;
+    }
+}
 
+html, body {
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
 }
